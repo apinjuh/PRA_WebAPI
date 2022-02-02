@@ -16,7 +16,7 @@ namespace PRA_WebAPI.Entities
 
         public DateTime StartTime { get; set; }
 
-        public DateTime EndTime { get; set; }
+        public DateTime FinishTime { get; set; }
        /* public int PlayerID { get; set; }*/ /*- promijeniti u bazi iako mislim da ovaj podatak ne bi trebao biti tu, nego da se za igrača veže koje igre je igrao*/
     }
 }
